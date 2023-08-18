@@ -1,0 +1,110 @@
+hr {
+    margin:25px 5px 25px
+}
+
+/* Mock 1 */
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+button {
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    background-color:rgb(16, 155, 235);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(21, 109, 163);
+    cursor:pointer;
+}
+
+/* Mock 2 */
+
+.catz {
+    width: 400px;
+    border: 1px solid rgb(128, 128,128);
+    border-radius: 5px;
+    background-color: rgb(222, 222, 222);
+    margin: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.catz h2 {
+    padding:5%;
+    border-bottom:1px solid rgb(128, 128,128);
+    margin:0;
+}
+.derp {
+    background-image: url(https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/302147744_174157345171438_7839807813612182607_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=J-m1WHfoeJkAX8Nxspd&_nc_ht=scontent-bos5-1.xx&oh=00_AfD5Z4cM7bpXxkR2VRzq-07nZcb3M_J4M5TEVQP0aspbvw&oe=64E48FB2);
+    width: 100%;
+    padding-top: 60%;
+    background-position: top;
+    background-size: cover;
+}
+.paragraph {
+    padding:5%;
+}
+
+/* Mock 3 */
+
+.mock3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gif {
+    width: 400px;
+    height: 400px;
+    margin: 0 40px 0;
+    border:8px solid rgb(247, 200, 181);
+    border-radius: 8px;
+    background-color:rgb(247, 200, 181) ;
+    font-size: 0px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}    
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    border-radius: 8px;
+    background-size: cover;
+}
+
+#gif1 {
+    background-image: url(https://media2.giphy.com/media/3eADQUVCCAmRi/giphy.gif?cid=ecf05e477r8sxdvida6s204ssywz5myrektufy22mj9cmkt6&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+    }
+
+#gif2 {
+    background-image: url(https://media0.giphy.com/media/Y8bL4lil6jive/giphy.gif?cid=ecf05e472x40jjde4jww6ecswfespq7yqykhhq3wd6mf7xki&ep=v1_gifs_search&rid=giphy.gif&ct=g);
+}
+
+#gif3 {
+    background-image: url(https://media3.giphy.com/media/dRkMyTvCuAdY4/giphy.gif?cid=ecf05e47zw18rjjuy4lm3oxn4be23xjuc120qqdw8cdytzlp&ep=v1_gifs_search&rid=giphy.gif&ct=g);   
+}
+
+.pop-up {
+    color: white;
+    font-size: 85px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 8px;
+    top: 400px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    text-align: center;
+    transition: top 0.6s;   
+}
+
+.gif:hover .pop-up{
+    top: 0;
+}
